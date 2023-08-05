@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+.container { /*padrão para centralizar o container no centro da tela*/
+    width: 90%;
+    padding: 60px 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    padding-bottom: 0;
+}
+.container > p {
+    padding-bottom: 45px;
+}
+.hTop {
+    color: hsl(225, 2%, 53%);
+    font-weight: 200;
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+h1 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+h3 {
+    line-height: 0px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.p1 {
+    color: hsla(229, 6%, 66%, 0.827);
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box > p {
+    color: hsla(229, 6%, 66%, 0.827);
+    padding-bottom: 15px;
+    margin-right: 15px;
+}
+.box > svg {
+    margin-left: 80%;
+}
+.box {
+    padding: 25px;
+    margin-bottom: 35px;
+    border-radius: 7px;
+    box-shadow: 1px 10px 20px 1px rgba(187, 185, 185, 0.416);
+}
+#green {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+#red {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+#orange {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+#blue {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-bottom: 0;
+}
+.attribution {
+    text-align: center;
+}
+
+/* Configuração da tela desktop*/
+@media screen and (min-width: 800px) {
+    .container {
+        align-items: center;
+        width: 100%;
+    }
+    .p1 {
+        text-align: center;
+        margin: 10px 30%;
+    }
+    .boxes {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 180px;
+    }
+    #green {
+        grid-column-start: 1;     
+        place-self: center;
+        margin-right: 25px;
+    }
+    #red, #orange {
+        grid-column-start: 2;
+    }
+    #blue {
+        grid-column-start: 3;
+        place-self: center;
+        margin-left: 25px;
+    }
+
+}
