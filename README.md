@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/DesktopViwers.jpg.jpg)
-![](./images/MobileViwers.jpg.jpg.jpg)
+![](./images/DesktopViwers.jpg)
+![](./images/MobileViwers.jpg)
 
 ## My process
 
